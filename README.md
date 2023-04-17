@@ -21,7 +21,7 @@ add 1 2
 div 1 10
 ```
 
-Este exemplo indica que há uma unidade de processamento de operações inteiras (int) que leva 1 ciclo de execução, duas unidades para multiplicação em ponto flutuante (mult) que levam 4 ciclos, uma unidade de soma em ponto flutuante que leva 2 ciclos, e uma unidade de divisão em ponto flutuante que leva 10 ciclos para completar sua execução. 
+Este exemplo indica que há duas unidades de processamento de operações inteiras (int) que levam 1 ciclo de execução, duas unidades para multiplicação em ponto flutuante (mult) que levam 4 ciclos, uma unidade de soma em ponto flutuante que leva 2 ciclos, e uma unidade de divisão em ponto flutuante que leva 10 ciclos para completar sua execução. 
 
 A saída do simulador deverá ser uma tabela indicando o número do ciclo em que cada instrução cada uma das etapas de sua execução com scoreboard: Issue, Read (Leitura de Operandos), Execute (completar execução), Write (escrita de resultados no banco de registradores).
 
