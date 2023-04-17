@@ -15,7 +15,7 @@ fdiv f2, f4, f5
 2. Configuração das Unidades Funcionais, indicando a quantidade de unidades de cada tipo, e o número de ciclos necessários para completar a execução naquela unidade. Um exemplo de configuração é:
 
 ```
-int 1 1
+int 2 1
 mult 2 4
 add 1 2
 div 1 10
