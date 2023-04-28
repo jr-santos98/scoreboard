@@ -98,6 +98,22 @@ Na prova haverão duas opções para aproveitamento do trabalho. Quem entregar u
 
 A opção 1 só estará disponível para aqueles que entregarem o trabalho até 18/04 às 16h. A opção 2 estará disponível para aqueles que entregarem até 25/04 às 16h. Para ambas opções, só serão consideradas submissões com soluções  que implementem as regras completas de scoreboarding (ainda que contendo eventuais erros).
 
+## Como executar
+
+O programa foi definido para receber o arquivo com o codigo ASM por parametro.
+
+
+```
+python scoreboard.py arq001.s
+```
+
+Foi preparado 3 testes para o treinamendo do exercicio, mais os que vieram juntos com a atividade.
+
+## Problemas não resolvidos
+
+Para os hazards do tipo RAW, as vezes pode acontecer um atraso de um ciclo para a leitura.
+Isso acontece pelo fato do check das dependencias, ser antes da liberação de alguma unidade funcional.
+
 ## Parser
 
 O código abaixo implementa um parser (provavelmente quebrado) das instruções especificadas. Use por conta e risco 

@@ -1,3 +1,7 @@
+.int 1 1
+.mult 2 4
+.add 1 2
+.div 1 10
 fld  f1, 100(x7)
 fmul f2, f2, f4
 fadd f2, f1, f3
